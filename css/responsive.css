@@ -97,6 +97,7 @@ header{
     height: 100px;
     background: rgba(28, 54, 85, .2);
     z-index: 2;
+    position: fixed;
 }
 
 header .logo{
@@ -215,7 +216,7 @@ header nav .login_btn:hover{
 }
 
 #myVideo {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%; 
@@ -244,19 +245,37 @@ header nav .login_btn:hover{
 
 .weddings {
     background-color: white;
+    margin-top: 4%;
+    z-index: 2;
+}
+
+.weddings h1{
+    color: black;
+    text-align: center;
 }
 
 /* family section */
 
 .family {
     background-color: white;
+    margin-top: 4%;
+    z-index: 2;
+}
+
+.family h1{
+    color: black;
+    text-align: center;
 }
 
 /* contact section */
 
 .contact {
     background: white;
+    margin-top: 4%;
+    z-index: 2;
 }
+
+
 
 
 /*  responsive css */
